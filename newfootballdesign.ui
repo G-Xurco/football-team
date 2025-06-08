@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1049</width>
+    <height>857</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>501</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>შეიყვანეთ თქვენი გუნდის სახელი:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>სახელის ჩვენება</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>გუნდის სახელი:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>10</y>
+      <width>481</width>
+      <height>755</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="10" column="0">
+      <widget class="QComboBox" name="comboBox_11">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string> დანი კარვახალი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ბენჟამენ პავარი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>აშრაფ ჰაკიმი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კაილ უოლკერი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ტრენტ ალექსანდრ-არნოლდი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ჯოშუა კიმიხი</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="18" column="0">
+      <widget class="QComboBox" name="comboBox_7">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>ტონი კროოსი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>მარადონა</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ანდრეს ინიესტა</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ჩავი ერნანდესი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ლუკა მოდრიჩი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კევინ დე ბრუინი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ზინედინ ზიდანი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>იოჰან კრუიფი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>გიორგი ჩაკვეტაძე</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="16" column="0">
+      <widget class="QComboBox" name="comboBox_6">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>ჩავი ერნანდესი </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>მარადონა</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ანდრეს ინიესტა</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ტონი კროოსი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ლუკა მოდრიჩი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კევინ დე ბრუინი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ზინედინ ზიდანი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>იოჰან ჯრუიფი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>გიორგი ჩაკვეტაძე</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QComboBox" name="comboBox">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>მანუელ ნოიერი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ჯანლუიჯი ბუფონი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>გიორფი მამარდაშვილი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ტერ შტეგენი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ჯიანლუიჯი დონარუმა</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>დავიდ დე ხეა</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>მეკარე:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="0">
+      <widget class="QComboBox" name="comboBox_12">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>რობერტო კარლოსი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კაფუ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ალვეში</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>მარსელო</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ეშლი კოული</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QComboBox" name="comboBox_5">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>სერხიო რამოსი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>პიკე</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>მალდინი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ვირჯილ ვან დაიკი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>გურამ კაშია</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>პუიოლი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კანავარო</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="14" column="0">
+      <widget class="QComboBox" name="comboBox_3">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>ანდრეს ინიესტა</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>მარადონა</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ჩავი ერნანდესი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ტონი კროოსი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ლუკა მოდრიჩი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კევინ დე ბრუინი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ზინედინ ზიდანი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>იოჰან კრუიფი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>გიორგი ჩაკვეტაძე</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLineEdit" name="lineEdit_4">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>ცენტრალური მცველი 1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="0">
+      <widget class="QLineEdit" name="lineEdit_6">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>ნახევარმცველი 1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="24" column="0">
+      <widget class="QComboBox" name="comboBox_4">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>ნეიმარ ჯუნიორი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კრიშტიანუ რონალდუ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ლიონელ მესი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>პელე</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ლუის სუარეზი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კარიმ ბენზემა</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>რობერტ ლევანდოვსკი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კილიან მბაპე</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ხვიჩა კვარაცხელია</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="15" column="0">
+      <widget class="QLineEdit" name="lineEdit_7">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>ნახევარმცველი 2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="17" column="0">
+      <widget class="QLineEdit" name="lineEdit_8">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>ნახევარმცველი 3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="21" column="0">
+      <widget class="QLineEdit" name="lineEdit_10">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>შემტევი 2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="20" column="0">
+      <widget class="QComboBox" name="comboBox_8">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>ლიონელ მესი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კრიშტიანუ რონალდუ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ნეიმარ ჯუნიორი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>პელე</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ლუის სუარეზი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კარიმ ბენზემა</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>რობერტ ლევანდოვსკი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კილიან მბაპე</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ხვიჩა კვარაცხელია</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>პიკე</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>სერხიო რამოსი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>მალდინი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ვირჯილ ვან დაიკი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>გურამ კაშია</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>პუიოლი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კანავარო</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="22" column="0">
+      <widget class="QComboBox" name="comboBox_9">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>კრიშტიანუ რონალდუ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ლიონელ მესი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ნეიმარ ჯუნიორი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>პელე</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ლუის სუარეზი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კარიმ ბენზემა</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>რობერტ ლევანდოვსკი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კილიან მბაპე</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ხვიჩა კვარაცხელია</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="19" column="0">
+      <widget class="QLineEdit" name="lineEdit_9">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>შემტევი 1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="23" column="0">
+      <widget class="QLineEdit" name="lineEdit_11">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>შემტევი 3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLineEdit" name="lineEdit_5">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>ცენტრალური მცველი 2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>მარჯვენა ფლანგის მცველი</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0">
+      <widget class="QLineEdit" name="lineEdit_13">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>მარცხენა ფლანგის მცველი</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>501</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QListView" name="listView"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>660</y>
+      <width>497</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLineEdit" name="lineEdit_12">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>კაპიტანი:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_10">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>ლიონელ მესი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კრიშტიანუ რონალდუ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>გურამ კაშია</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ინიესტა</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ტონი კროოსი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ლუკა მოდრიჩი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>იოჰან კრუიფი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ჩავი ერნანდესი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კევინ დე ბრუინი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ზინედინ ზიდანი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>გიორგი ჩაკვეტაძე</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ნეიმარ ჯუნიორი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>პელე</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ლუის სუარეზი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კარიმ ბენზემა</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>რობერტ ლევანდოვსკი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კილიან მბაპე</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ხვიჩა კვარაცხელია</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>პიკე</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>სერხიო რამოსი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>მალდინი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ვირჯილ ვან დაიკი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>პუიოლი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კანავარო</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>მარადონა</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ალვეში</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>არნოლდი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კაფუ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ჰაკიმი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>კაილ უოლკერი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>რობერტო კარლოსი</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>დანი კარვახალი</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>გუნდის დამატება</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1049</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
